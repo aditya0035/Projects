@@ -1,0 +1,26 @@
+module.exports={
+    InvalidPayments:"invalidpayments",
+    RejectedPayments:"rejectedpayments",
+    NoSalesforcecaseInvalidPayments:"nosalesforcecaseinvalidpayments",
+    NoSalesforcecaseRejectedPayments:"nosalesforcecaserejectedpayments",
+    HoldOfacPayments:"holdofacpayments",
+    OfacStatusInProcess:"ofacstatusinprocess",
+    OfacStatusComplianceHold:"ofacstatuscompliancehold",
+    OfacStatusComplianceCancel:"ofacstatuscompliancecancel",
+    OfacStatusComplianceBlocked:"ofacstatuscomplianceblocked",
+    PaymentFileStatusAccp:"ACCP",
+    PaymentFileStatusAccpept:"ACCEPT",
+    PaymentFileStatusRjct:"RJCT",
+    PaymentFileStatusReject:"REJECT",
+    PaymentFileAccepted:"ACCP",
+    PaymentFileRejected:"RJCT",
+    AllTypeOfPaymentsCount:"alltypeofpaymentscount",
+    PaymentBatchDetailsStatus:{
+            Disposed:3
+    },
+    PaymentInstructionStaus:{
+        ReleaseFailed:7,
+        ValidationFailed:5,
+        Disposed:6
+    }
+}
