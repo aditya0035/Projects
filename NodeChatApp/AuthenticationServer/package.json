@@ -1,0 +1,25 @@
+{
+  "name": "AuthenticationServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "bcrypt": "^3.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.9",
+    "restify": "^8.3.2",
+    "restify-validator": "^0.3.1",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
